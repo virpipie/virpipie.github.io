@@ -1,0 +1,24 @@
+{% extends "_base.html" %}
+{% block content %}
+  <h1>Matkapäiväkirjat</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ornare diam nec tincidunt. Maecenas congue viverra elit in fermentum. Morbi sed congue sem, nec tincidunt urna. Integer non diam non purus venenatis bibendum sed auctor quam. Maecenas est ante, blandit sed congue eu, accumsan a erat. Maecenas imperdiet velit ut feugiat convallis. Sed pretium lorem ante, eu fermentum nisl iaculis non. Ut ac nisl quam. Cras lacinia pulvinar dolor at blandit. Aenean maximus pellentesque sapien vitae venenatis. Morbi consectetur dolor arcu, sit amet consectetur nisl aliquam non.
+  </p>
+  <p>
+      Maecenas viverra sodales varius. Sed libero purus, vulputate ut varius vel, varius vitae ipsum. Nunc porta tortor finibus leo laoreet, eget efficitur mauris tempor. Proin sit amet tempor tortor. Aenean pellentesque quis tellus vel facilisis. Etiam cursus nec quam sit amet pretium. Sed sodales orci id tellus egestas convallis. Nunc sit amet viverra tortor. Suspendisse ornare enim nec elit mattis, eget lacinia enim tristique. Nam dictum mi at tellus mattis, ac tristique ante malesuada. Ut tempor finibus mauris faucibus egestas. Suspendisse vitae nisi libero. Sed eu libero ut nibh consequat viverra eget sed tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus at dolor vitae lectus cursus pharetra.
+  </p>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        
+        {% include '_card_madrid.html' %}
+        {% include '_card_toledo.html' %}
+        {% include '_card_levi.html' %}
+        {% include '_card_helsinki.html' %}
+        
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

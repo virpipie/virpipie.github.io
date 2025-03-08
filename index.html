@@ -1,23 +1,144 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Project Page</title>
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body class="gradient">
-    <h1 align="center">
-      Virpin demot
-    </h1>
-    <h3 align="center">
-      Täällä on erilaisia pienimuotoisia projekteja.
-    </h3>
-    <ul>
-      <li>
-        <a href="/demo1.html">Demo 1 karuselli</a>
-      </li>
-      <li>
-        <a href="/demo2.html">Demo 2 popup</a>
-      </li>
-    </ul>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matkapäiväkirjat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Matkapäiväkirjat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Maat
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./finland.html">Suomi</a></li>
+                    <li><a class="dropdown-item" href="./spain.html">Espanja</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blogi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./tips.html">Vinkkejä</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./map.html">Kartta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./aboutme.html">Minusta</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Etsi" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Etsi</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <div id="content" class="container">
+        
+  <h1>Matkapäiväkirjat</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis ornare diam nec tincidunt. Maecenas congue viverra elit in fermentum. Morbi sed congue sem, nec tincidunt urna. Integer non diam non purus venenatis bibendum sed auctor quam. Maecenas est ante, blandit sed congue eu, accumsan a erat. Maecenas imperdiet velit ut feugiat convallis. Sed pretium lorem ante, eu fermentum nisl iaculis non. Ut ac nisl quam. Cras lacinia pulvinar dolor at blandit. Aenean maximus pellentesque sapien vitae venenatis. Morbi consectetur dolor arcu, sit amet consectetur nisl aliquam non.
+  </p>
+  <p>
+      Maecenas viverra sodales varius. Sed libero purus, vulputate ut varius vel, varius vitae ipsum. Nunc porta tortor finibus leo laoreet, eget efficitur mauris tempor. Proin sit amet tempor tortor. Aenean pellentesque quis tellus vel facilisis. Etiam cursus nec quam sit amet pretium. Sed sodales orci id tellus egestas convallis. Nunc sit amet viverra tortor. Suspendisse ornare enim nec elit mattis, eget lacinia enim tristique. Nam dictum mi at tellus mattis, ac tristique ante malesuada. Ut tempor finibus mauris faucibus egestas. Suspendisse vitae nisi libero. Sed eu libero ut nibh consequat viverra eget sed tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus at dolor vitae lectus cursus pharetra.
+  </p>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        
+        <div class="col">
+    <div class="card shadow-sm">
+        
+<img
+  src="./img/madrid1.jpg"
+  class="card-img-top"
+  alt="Kuva kristallipalatsista Madridissa"
+/>
+
+        <div class="card-body">
+            <h5 class="card-title">
+                 Madrid 
+            </h5>
+            <a href="
+./madrid.html " class="btn btn-primary float-end">Lue julkaisu</a>
+        </div>
+    </div>
+</div>
+        <div class="col">
+    <div class="card shadow-sm">
+        
+<img
+  src="./img/toledo1.jpg"
+  class="card-img-top"
+  alt="Maisemakuva Espanjan Toledosta"
+/>
+
+        <div class="card-body">
+            <h5 class="card-title">
+                 Toledo 
+            </h5>
+            <a href="
+./toledo.html " class="btn btn-primary float-end">Lue julkaisu</a>
+        </div>
+    </div>
+</div>
+        <div class="col">
+    <div class="card shadow-sm">
+        
+<img
+  src="./img/levi1.jpg"
+  class="card-img-top"
+  alt="Maisemakuva ruska-ajan Leviltä"
+/>
+
+        <div class="card-body">
+            <h5 class="card-title">
+                 Levi 
+            </h5>
+            <a href="
+./levi.html " class="btn btn-primary float-end">Lue julkaisu</a>
+        </div>
+    </div>
+</div>
+        <div class="col">
+    <div class="card shadow-sm">
+        
+<img
+  src="./img/helsinki1.jpg"
+  class="card-img-top"
+  alt="Kuva modernista taiteesta"
+/>
+
+        <div class="card-body">
+            <h5 class="card-title">
+                 Helsinki 
+            </h5>
+            <a href="
+./helsinki.html " class="btn btn-primary float-end">Lue julkaisu</a>
+        </div>
+    </div>
+</div>
+        
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+</body>
 </html>
